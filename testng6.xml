@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+    <groups>
+        <run>
+            <include name="SmokeTest"/>
+        </run>
+    </groups>
+    <test name="Personal Loan">
+        <classes>
+            <class name="Personal_loan"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Home Loan">
+        <classes>
+            <class name="Home_loan"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Car Loan">
+        <classes>
+            <class name="Car_loan"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+

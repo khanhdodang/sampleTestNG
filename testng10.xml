@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+    <test name="Including test cases">
+        <groups>
+            <run>
+                <include name="Include.*"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Regular_Expression"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
+

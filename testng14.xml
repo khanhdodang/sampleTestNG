@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Fruits">
+        <parameter name="mango" value="mango"/>
+        <parameter name="orange" value="orange"/>
+        <classes>
+            <class name= "Fruits2"/>
+        </classes>
+    </test>
+    <test name="Vegetables">
+        <parameter name="Cauliflower" value="Cauliflower"/>
+        <parameter name="Ladyfinger" value="Ladyfinger"/>
+        <classes>
+            <class name= "Vegetable"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
+
