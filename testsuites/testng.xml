@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Testing Test Suite">
+    <test name="Parameters Testing">
+        <parameter name="BrowserName" value="Firefox"/>
+        <parameter name="UserName" value="demo"/>
+        <parameter name="Passcode" value="PASSWORD"/>
+        <classes>
+            <class name="parameters.ParametersTesting" />
+        </classes>
+    </test>
+</suite>

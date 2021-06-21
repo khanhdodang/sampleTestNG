@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Optional Testing Test Suite" verbose="1">
+    <test name="Optional Testing Part1">
+        <classes>
+            <class name="parameters.OptionalTesting" />
+        </classes>
+    </test>
+    <test name="Optional Testing Part2">
+        <parameter name="optional-value" value="Provided from XML" />
+        <classes>
+            <class name="parameters.OptionalTesting" />
+        </classes>
+    </test>
+</suite>
